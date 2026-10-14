@@ -1,0 +1,4 @@
+basicConstraints=critical,CA:FALSE
+keyUsage=critical,digitalSignature
+extendedKeyUsage=critical,clientAuth
+subjectAltName=DNS:client.local,URI:urn:test:client
