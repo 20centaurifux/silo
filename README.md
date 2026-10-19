@@ -160,7 +160,7 @@ require `silo.transport.http.middleware` as `middleware` and wrap the handler:
 
 ```clojure
 (-> handler
-    middleware/wrap-valid-certificate
+    middleware/wrap-certificate-validity-period
     middleware/wrap-common-name)
 ```
 
